@@ -9,8 +9,7 @@ export default function About() {
     <section id="about" className="mx-auto max-w-6xl px-6 py-20">
       <h2 className="heading-lg">About</h2>
       <p className="subtle mt-2 max-w-prose">
-        I’m a designer and frontend engineer who cares about detail, speed, and polish. I bring ideas
-        to life with modern, maintainable code and a strong sense for clean visuals.
+  I’m Johnlien Falculan—UI/UX designer, frontend developer, and BSIT student specializing in Web and Mobile Applications. I love transforming concepts into fast, user-focused interfaces with clean layouts, smooth interactions, and maintainable code.
       </p>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
