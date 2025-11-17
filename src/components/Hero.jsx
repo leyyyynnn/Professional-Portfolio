@@ -1,4 +1,5 @@
 import heroImg from "../../assets/img/hero-img-portfolio.png";
+import resumePdf from "../../assets/img/Falculan_Johnlien_Resume.pdf";
 
 export default function Hero() {
   return (
@@ -12,8 +13,14 @@ export default function Hero() {
               Focused on usability, performance, and accessibility to deliver seamless user experiences.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <a className="btn-primary" href="#projects">View Work</a>
-              <a className="inline-flex items-center justify-center rounded-lg border border-zinc-800 px-5 py-3 font-medium text-zinc-200 hover:bg-zinc-900/60">
+              <a className="btn-primary" href="#projects">
+                View Work
+              </a>
+              <a
+                href={resumePdf}
+                download="Falculan_Johnlien_Resume.pdf"
+                className="inline-flex items-center justify-center rounded-lg border border-zinc-800 px-5 py-3 font-medium text-zinc-200 hover:bg-zinc-900/60"
+              >
                 Download CV
               </a>
             </div>
