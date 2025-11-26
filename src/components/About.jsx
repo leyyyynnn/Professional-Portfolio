@@ -25,7 +25,7 @@ export default function About() {
       title: "BSIT · Web & Mobile Applications",
       org: "FEU Institute of Technology",
       period: "2022 — 2026",
-      summary: "Specializing in UI engineering, user research, and mobile-first experience design.",
+      summary: "Freelance UI/UX designer specializing in modern, user-focused interfaces and responsive web and mobile design.",
     },
   ];
 

@@ -27,7 +27,7 @@ export default function Projects() {
     {
       title: "Portfolio Site",
       tag: "React JS",
-      hint: "This evolving portfolio with motion-minded storytelling.",
+      hint: "A portfolio that grows and improves as I do.",
       url: "https://johnlien-uiux.vercel.app/",
       image: PortfolioImg,
       tools: ["React", "Vite", "Tailwind"],
@@ -35,8 +35,8 @@ export default function Projects() {
     {
       title: "GabaySakuna",
       tag: "Product Website",
-      hint: "Disaster risk management hub with location-aware alerts.",
-      url: "https://gabaysakuna.com",
+      hint: "Disaster risk management system for Legazpi DRRMO.",
+      url: "https://gabaysakuna.org",
       image: GabaySakunaImg,
       tools: ["React", "React Native", "Expo"],
     },
@@ -45,7 +45,7 @@ export default function Projects() {
   const sections = [
     {
       title: "Product design & prototyping",
-      subtitle: "High-fidelity prototypes, systems, and storytelling.",
+      subtitle: "High-fidelity prototypes, systems, and applications",
       items: designSystems,
     },
     {
@@ -68,7 +68,7 @@ export default function Projects() {
         </p>
         <p className="mx-auto max-w-3xl text-lg leading-relaxed text-zinc-400">
           Split between systems work in Figma and end-to-end web builds. Each piece balances aesthetics, accessibility, and
-          measurable outcomes.
+          user experience.
         </p>
       </div>
 
